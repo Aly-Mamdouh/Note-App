@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E8E8E8"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:id="@+id/filter"
+    android:orientation="horizontal"
+    android:layout_margin="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/filter_shape"
+        android:src="@drawable/ic_baseline_filter_list_24"/>
+    <TextView
+        android:id="@+id/main_filter_no_filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No Filter"
+        android:background="@drawable/filter_shape"
+        android:layout_margin="5dp"
+        android:paddingBottom="5dp"
+        android:fontFamily="@font/opensansregular"
+        android:paddingTop="5dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:layout_gravity="center_vertical"/>
+    <TextView
+        android:id="@+id/main_filter_htol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="High to low"
+        android:fontFamily="@font/opensansregular"
+        android:background="@drawable/filter_shape"
+        android:layout_margin="5dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:layout_gravity="center_vertical"/>
+    <TextView
+        android:id="@+id/main_filter_ltoh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Low to High"
+        android:fontFamily="@font/opensansregular"
+        android:background="@drawable/filter_shape"
+        android:layout_margin="5dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:layout_gravity="center_vertical"/>
+
+</LinearLayout>
+
+
+<androidx.recyclerview.widget.RecyclerView
+    android:layout_below="@id/filter"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_rv"
+    />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/main_fab_btn"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/ic_baseline_add_24"
+        android:layout_margin="25dp"
+        android:backgroundTint="@color/red"/>
+
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/EL10_gazy/AndroidStudioProjects/NoteApp/app/src/main/res/drawable-v24/yes_delete.xml" value="0.1695" />
+        <entry key="..\:/Users/EL10_gazy/AndroidStudioProjects/NoteApp/app/src/main/res/drawable/delete_custom.xml" value="0.1695" />
+        <entry key="..\:/Users/EL10_gazy/AndroidStudioProjects/NoteApp/app/src/main/res/drawable/delete_indiactor.xml" value="0.1695" />
+        <entry key="..\:/Users/EL10_gazy/AndroidStudioProjects/NoteApp/app/src/main/res/drawable/et_custom.xml" value="0.1695" />
+        <entry key="..\:/Users/EL10_gazy/AndroidStudioProjects/NoteApp/app/src/main/res/drawable/filter_selected_shape.xml" value="0.1695" />
+        <entry key="..\:/Users/EL10_gazy/AndroidStudioProjects/NoteApp/app/src/main/res/drawable/filter_shape.xml" value="0.1695" />
+        <entry key="..\:/Users/EL10_gazy/AndroidStudioProjects/NoteApp/app/src/main/res/drawable/green_shape.xml" value="0.1695" />
+        <entry key="..\:/Users/EL10_gazy/AndroidStudioProjects/NoteApp/app/src/main/res/drawable/ic_baseline_filter_list_24.xml" value="0.1695" />
+        <entry key="..\:/Users/EL10_gazy/AndroidStudioProjects/NoteApp/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.1695" />
+        <entry key="..\:/Users/EL10_gazy/AndroidStudioProjects/NoteApp/app/src/main/res/drawable/no_delete.xml" value="0.1695" />
+        <entry key="..\:/Users/EL10_gazy/AndroidStudioProjects/NoteApp/app/src/main/res/drawable/red_shape.xml" value="0.1695" />
+        <entry key="..\:/Users/EL10_gazy/AndroidStudioProjects/NoteApp/app/src/main/res/drawable/yellow_shape.xml" value="0.1695" />
+        <entry key="..\:/Users/EL10_gazy/AndroidStudioProjects/NoteApp/app/src/main/res/layout/activity_insert_note.xml" value="0.209375" />
+        <entry key="..\:/Users/EL10_gazy/AndroidStudioProjects/NoteApp/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/EL10_gazy/AndroidStudioProjects/NoteApp/app/src/main/res/layout/activity_splash_screen.xml" value="0.22" />
+        <entry key="..\:/Users/EL10_gazy/AndroidStudioProjects/NoteApp/app/src/main/res/layout/activity_update_note.xml" value="0.1953125" />
+        <entry key="..\:/Users/EL10_gazy/AndroidStudioProjects/NoteApp/app/src/main/res/layout/delete_buttom_sheet.xml" value="0.25" />
+        <entry key="..\:/Users/EL10_gazy/AndroidStudioProjects/NoteApp/app/src/main/res/layout/et_custom_layout.xml" value="0.209375" />
+        <entry key="..\:/Users/EL10_gazy/AndroidStudioProjects/NoteApp/app/src/main/res/layout/filter_shape.xml" value="0.209375" />
+        <entry key="..\:/Users/EL10_gazy/AndroidStudioProjects/NoteApp/app/src/main/res/layout/item_note_layout.xml" value="0.33" />
+        <entry key="..\:/Users/EL10_gazy/AndroidStudioProjects/NoteApp/app/src/main/res/menu/delete_icon.xml" value="0.209375" />
+        <entry key="..\:/Users/EL10_gazy/AndroidStudioProjects/NoteApp/app/src/main/res/menu/search_icon.xml" value="0.2861328125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
